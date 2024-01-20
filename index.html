@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Sara Ghazanfari</title>
+
+  <meta name="author" content="Jon Barron">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/jpg" href="Data/sara.JPG">
+</head>
+
+
+<body>
+  <table
+    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr style="padding:0px">
+                <td style="padding:2.5%;width:63%;vertical-align:middle">
+                  <p style="text-align:center">
+                    <name>Sara Ghazanfari</name>
+                  </p>
+                  <p>
+                    <div class="row" style="text-align: justify;">
+            I am currently a Ph.D. candidate at New York University in the
+            <a class="desc-links" href="https://wp.nyu.edu/ensure_group/">
+                EnSuRe Research Group</a>.
+            I'm pleased to be co-advised by <a class="desc-links" href="https://engineering.nyu.edu/faculty/siddharth-garg">
+                Siddharth Garg</a> and <a class="desc-links" href="https://engineering.nyu.edu/faculty/farshad-khorrami">
+                Farshad Khorrami</a>. My primary research is focused on trustworthy machine learning with the
+                    goal of improving the robustness vision systems including as robust presentations and robust
+                    perceptual metrics.
+                  </div>
+                  </p>
+                  <p style="text-align:center">
+                    <a href="mailto:sg7457@nyu.edu">Email</a> &nbsp/&nbsp
+                    <a href="https://scholar.google.com/citations?user=0dMW47QAAAAJ&hl=en">Google Scholar</a>
+                    &nbsp/&nbsp
+                    <a href="https://github.com/SaraGhazanfari">GitHub</a> &nbsp/&nbsp
+                    <a href="https://twitter.com/SaraGhznfri">Twitter</a> &nbsp/&nbsp
+                    <a href="https://www.linkedin.com/in/sara-ghazanfari-1a8b37163/">LinkedIn</a> &nbsp/&nbsp
+                    <a href="Data/Sara_Ghazanfari_CV.pdf">CV</a>
+                  </p>
+                </td>
+                <td style="padding:2.5%;width:40%;max-width:40%">
+                  <a href="Data/sara.JPG"><img style="width:100%;max-width:100%" alt="profile photo"
+                      src="Data/sara.JPG" class="hoverZoomLink"></a>
+                </td>
+              </tr>
+          </table>
+
+
+
+
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tr>
+              <td width="100%" valign="middle">
+                <heading>News</heading>
+                <!-- <br /> -->
+                <ul>
+                  <li><b>Jan-2024:</b> One paper accepted to ICLR 2024. </li>
+                </ul>
+                <ul>
+                  <li><b>June-2023:</b> One paper accepted to ICML Workshop 2023. </li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+
+
+
+
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading>Research</heading>
+<!--                  <p>-->
+<!--                    -->
+<!--                  </p>-->
+                </td>
+              </tr>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              
+              <tr onmouseout="bob_stop()" onmouseover="bob_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='bob_image'>
+                      <img src='Data/lipsim_ex.png' width="180">
+                    </div>
+                    <img src='Data/lipsim_ex.png' width="180">
+                  </div>
+                  <script type="text/javascript">
+                    function bob_start() {
+                      document.getElementById('bob_image').style.opacity = "0";
+                    }
+
+                    function bob_stop() {
+                      document.getElementById('bob_image').style.opacity = "1";
+                    }
+                    bob_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2310.18274">
+                    <papertitle> LipSim: A Provably Robust Perceptual Similarity Metric
+                    </papertitle>
+                  </a>
+                  <br>
+                  <strong>S. Ghazanfari</strong>, A. Araujo, P. Krishnamurthy, F. Khorrami and S. Garg
+                  <br>
+                  <font color="red"><strong><em>ICLR</em>, 2024</strong></font>
+                  <br>
+                  <a href="https://arxiv.org/pdf/2310.18274.pdf">PDF</a> /
+                  <a href="https://arxiv.org/abs/2310.18274">arXiv</a> /
+                  <a href="https://github.com/SaraGhazanfari/lipsim">code</a>
+                  <br>
+                  <p></p>
+                  <p>
+                     <div class="row" style="text-align: justify;">
+                  In this work, we demonstrate the vulnerability of state-of-the-art perceptual similarity
+                    metrics based on an ensemble of ViT-based feature extractors to adversarial attacks.
+                    We then propose a framework to train a robust perceptual similarity metric called LipSim
+                    (Lipschitz Similarity Metric) with provable guarantees.
+                    By leveraging 1-Lipschitz neural networks as the backbone,
+                    LipSim provides guarded areas around each data point and certificates for
+                    all perturbations within an ℓ2 ball. Finally, a comprehensive set of experiments
+                    shows the performance of LipSim in terms of natural and certified scores and on the image
+                    retrieval application.
+
+                </div>
+                  </p>
+                </td>
+              </tr>
+
+               <tr onmouseout="bob_stop()" onmouseover="bob_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='bob_image'>
+                      <img src='Data/r_lpips.png' width="180">
+                    </div>
+                    <img src='Data/r_lpips.png' width="180">
+                  </div>
+                  <script type="text/javascript">
+                    function bob_start() {
+                      document.getElementById('bob_image').style.opacity = "0";
+                    }
+
+                    function bob_stop() {
+                      document.getElementById('bob_image').style.opacity = "1";
+                    }
+                    bob_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2307.15157">
+                    <papertitle> R-LPIPS: An Adversarially Robust Perceptual Similarity Metric
+                    </papertitle>
+                  </a>
+                  <br>
+                  <strong>S. Ghazanfari</strong>, S. Garg, P. Krishnamurthy, F. Khorrami and A. Araujo
+                  <br>
+                  <font color="red"><strong><em>ICML Workshop</em>, 2023</strong></font>
+                  <br>
+                  <a href="https://arxiv.org/pdf/2307.15157.pdf">PDF</a> /
+                  <a href="https://arxiv.org/abs/2307.15157">arXiv</a> /
+                  <a href="https://github.com/SaraGhazanfari/r-lpips">code</a>
+                  <br>
+                  <p></p>
+                  <p>
+                     <div class="row" style="text-align: justify;">
+                  In this work, we show that the LPIPS metric is sensitive to adversarial perturbation and propose the
+                  use of Adversarial Training to build a new Robust Learned Perceptual Image Patch Similarity (R-LPIPS)
+                  that leverages adversarially trained deep features. Based on an adversarial evaluation, we demonstrate
+                  the robustness of R-LPIPS to adversarial examples compared to the LPIPS metric.
+                  Finally, we showed that the perceptual defense achieved over LPIPS metrics could easily
+                  be broken by stronger attacks developed based on R-LPIPS.
+                </div>
+                  </p>
+                </td>
+              </tr>
+
+        </td>
+      </tr>
+  </table>
+</body>
+
+</html>
