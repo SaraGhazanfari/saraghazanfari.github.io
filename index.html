@@ -35,9 +35,15 @@
                 EnSuRe Research Group</a>.
             I'm pleased to be co-advised by <a class="desc-links" href="https://engineering.nyu.edu/faculty/siddharth-garg">
                 Siddharth Garg</a> and <a class="desc-links" href="https://engineering.nyu.edu/faculty/farshad-khorrami">
-                Farshad Khorrami</a>. My primary research is focused on the intersection of trustworthy machine learning
-                  and computer vision with the goal of improving the robustness of vision systems by providing
-                  robust representations.
+                Farshad Khorrami</a>. My current research is focused on <b>building robust and scalable multimodal
+                  perception systems</b> that can operate in the real world. My latest work,
+                  <a class="desc-links" href="https://arxiv.org/abs/2410.02080"><b>EMMA</b></a>, proposes an efficient
+                  modality adaptation module to provide <b>instruction-aware visual representations to MLLM</b>
+                  (Multi-modal Large Language Models). My earlier work
+                  <a class="desc-links" href="https://arxiv.org/abs/2410.02080"><b>LipSim</b></a>
+                  introduces a <b>robust perceptual metric</b>
+                  by leveraging Lipschitz Model as backbone and distilling from the SOTA metric
+                  <a href="https://arxiv.org/abs/2306.09344">DreamSim</a>.
                   </div>
                   </p>
                   <p style="text-align:center">
@@ -94,7 +100,57 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
-              
+                            <tr onmouseout="bob_stop()" onmouseover="bob_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='bob_image'>
+                      <img src='Data/emma.png' width="180">
+                    </div>
+                    <img src='Data/emma.png' width="180">
+                  </div>
+                  <script type="text/javascript">
+                    function bob_start() {
+                      document.getElementById('bob_image').style.opacity = "0";
+                    }
+
+                    function bob_stop() {
+                      document.getElementById('bob_image').style.opacity = "1";
+                    }
+                    bob_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2410.02080">
+                    <papertitle> EMMA: Efficient Visual Alignment in Multi-Modal LLMs
+                    </papertitle>
+                  </a>
+                  <br>
+                  <strong>S. Ghazanfari</strong>, A. Araujo, P. Krishnamurthy, S. Garg and F. Khorrami
+                  <br>
+                  <font color="red"><strong><em>Submitted to ICLR</em>, 2025</strong></font>
+                  <br>
+                  <a href="https://arxiv.org/abs/2410.02080.pdf">PDF</a> /
+                  <a href="https://arxiv.org/abs/2410.02080">arXiv</a> /
+                  <a href="https://github.com/SaraGhazanfari/EMMA">code</a>
+                  <br>
+                  <p></p>
+                  <p>
+                     <div class="row" style="text-align: justify;">
+                  In this paper, we propose EMMA (Efficient Multi-Modal Adaptation), a lightweight cross-modality
+                  module designed to efficiently fuse visual and textual encodings, generating <b>instruction-aware
+                  visual representations for the language model</b>. Our key contributions include: (1) an efficient
+                  early fusion mechanism that integrates vision and language representations with minimal added
+                  parameters (less than 0.2% increase in model size), (2) an in-depth interpretability analysis
+                  that sheds light on the internal mechanisms of the proposed method; (3) comprehensive experiments
+                  that demonstrate notable improvements on both specialized and general benchmarks for MLLMs.
+                  Empirical results show that EMMA boosts performance across multiple tasks by up to 9.3% while
+                  significantly improving robustness against hallucinations.
+
+                </div>
+                  </p>
+                </td>
+              </tr>
+
               <tr onmouseout="bob_stop()" onmouseover="bob_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
