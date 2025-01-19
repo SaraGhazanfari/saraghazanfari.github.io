@@ -63,8 +63,6 @@
           </table>
 
 
-
-
           <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
             <tr>
               <td width="100%" valign="middle">
@@ -81,9 +79,6 @@
           </table>
 
 
-
-
-
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
@@ -96,16 +91,78 @@
                 </td>
               </tr>
           </table>
+
+
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
-                            <tr onmouseout="bob_stop()" onmouseover="bob_start()">
+
+            <tr onmouseout="bob_stop()" onmouseover="bob_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='bob_image'>
+                      <img src='Data/UniSim.png' width="200">
+                      <img src='Data/radar_plot.png' width="200">
+                    </div>
+                    <img src='Data/UniSim.png' width="200">
+                    <img src='Data/radar_plot.png' width="200">
+
+                  </div>
+                  <script type="text/javascript">
+                    function bob_start() {
+                      document.getElementById('bob_image').style.opacity = "0";
+                    }
+
+                    function bob_stop() {
+                      document.getElementById('bob_image').style.opacity = "1";
+                    }
+                    bob_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2412.10594">
+                    <papertitle> Towards Unified Benchmark and Models for Multi-Modal Perceptual Metrics
+                    </papertitle>
+                  </a>
+                  <br>
+                  <strong>S. Ghazanfari</strong>,S. Garg , N Flammarion, P. Krishnamurthy, F. Khorrami, and F. Croce
+                  <br>
+                  <font color="red"><strong><em>Submitted to CVPR</em>, 2025</strong></font>
+                  <br>
+                  <a href="https://arxiv.org/pdf/2412.10594">PDF</a> /
+                  <a href="https://arxiv.org/abs/2412.10594">arXiv</a> /
+                  <a href="https://github.com/SaraGhazanfari/UniSim">code</a>
+                  <br>
+                  <p></p>
+                  <p>
+                     <div class="row" style="text-align: justify;">
+                 In this our work, we propose UniSim-Bench,
+                  the first benchmark to track the progress of perceptual
+                  similarity metrics across uni- and multimodal tasks.
+                  We identify the limitations of current specialized perceptual
+                  in generalizing to unseen datasets and perceptual tasks.
+                  We propose UniSim, a set of multi-task perceptual models which
+                  are a first step towards general-purpose perceptual metrics.
+                  Together, <b>UniSim-Bench</b> and UniSim lay the groundwork for
+                  understanding the challenges of learning automated metrics
+                  that broadly mimic human perceptual similarity, beyond narrow,
+                  task-specific applications.
+
+                </div>
+                  </p>
+                </td>
+              </tr>
+
+            <tr onmouseout="bob_stop()" onmouseover="bob_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='bob_image'>
                       <img src='Data/emma.png' width="180">
+                      <img src='Data/mmvp_images.png' width="180">
+
                     </div>
                     <img src='Data/emma.png' width="180">
+                    <img src='Data/mmvp_images.png' width="180">
                   </div>
                   <script type="text/javascript">
                     function bob_start() {
