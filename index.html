@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="icon" type="image/jpg" href="Data/sara.JPG">
+  <link rel="icon" type="image/jpg" href="Data/sara3.png">
 </head>
 
 
@@ -35,7 +35,7 @@
                   I'm pleased to be co-advised by <a class="desc-links" href="https://engineering.nyu.edu/faculty/siddharth-garg">
                 Siddharth Garg</a> and <a class="desc-links" href="https://engineering.nyu.edu/faculty/farshad-khorrami">
                 Farshad Khorrami</a>. My research focuses on advancing the visual capabilities of multimodal large language models (LLMs).
-                During summer 2025, I have joined Adobe as a research intern to continue pursuing this line of work on enhancing Multimodal LLMs.
+                During summer 2025, I joined Adobe as a research intern to continue pursuing this line of work on enhancing Multimodal LLMs.
                   </div>
                   </p>
                   <p style="text-align:center">
@@ -49,8 +49,8 @@
                   </p>
                 </td>
                 <td style="padding:2.5%;width:40%;max-width:40%">
-                  <a href="Data/sara.JPG"><img style="width:100%;max-width:100%" alt="profile photo"
-                      src="Data/sara.JPG" class="hoverZoomLink"></a>
+                  <a href="Data/sara5.png"><img style="width:100%;max-width:100%" alt="profile photo"
+                      src="Data/sara5.png" class="hoverZoomLink"></a>
                 </td>
               </tr>
           </table>
@@ -60,9 +60,9 @@
               <td width="100%" valign="middle">
                 <heading>Research Overview</heading>
                 <div class="row" style="text-align: justify; margin-top:15px">
-                My research focuses on advancing the visual capabilities of multimodal large language models (LLMs),
+                My research focuses on advancing the visual understanding capabilities of multimodal large language models (LLMs),
                   with a particular emphasis on enhancing their spatial reasoning and perceptual abilities.
-                  In my latest work, <b>Chain-of-Frames (CoF)</b>, we propose a novel framework for video LLMs
+                  In my previous work, <b>Chain-of-Frames (CoF)</b>, we propose a novel framework for video LLMs
                   that grounds reasoning in explicit frame references, improving interpretability and
                   performance on complex video question-answering tasks.
                   Before that, <b>UniSim</b> introduced a unified benchmark and models for multimodal perceptual similarity tasks,
@@ -71,6 +71,15 @@
                   boosting cross-modal performance and robustness in Multi-Modal Large Language Models (MLLMs)
                   with minimal computational overhead.
 </div>
+                <div class="row" style="text-align: justify; margin-top:15px">
+                During my internship at <b>Adobe</b>, I worked on visual understanding capabilities of Large multimodal models
+                  for image editing task. More specifically, we introduced <b>SpotEdit</b>, a comprehensive benchmark designed
+                  to systematically assess visually-guided image editing methods across diverse models. More importantly,
+                   our benchmark includes a dedicated component on <b>hallucination</b>,
+                  highlighting how leading models, such as <b>GPT-4o</b>, often hallucinate the
+                  existence of a visual cue and erroneously perform the editing task. Stay tuned for the next version of the paper,
+                  which will further explore <b>visually-grounded multimodal generation</b>.
+              </div>
               </td>
             </tr>
           </table>
@@ -79,8 +88,11 @@
               <td width="100%" valign="middle">
                 <heading>News</heading>
                 <!-- <br /> -->
+                <ul>
+                  <li><b>Aug-2025:</b> <font color="blue"><b>SpotEdit</b></font> paper now on arXiv, with benchmark, code and models on <a href="https://github.com/SaraGhazanfari/SpotEdit">GitHub</a>.</li>
+                </ul>
                  <ul>
-                  <li><b>June-2025:</b> <font color="blue"><b>Chain-of-Frames</b></font> paper now on arXiv, with code and models on GitHub.</li>
+                  <li><b>June-2025:</b> <font color="blue"><b>Chain-of-Frames</b></font> paper now on arXiv, with code and models on <a href="https://github.com/SaraGhazanfari/CoF">GitHub</a>.</li>
                 </ul>
                 <ul>
                   <li><b>May-2025:</b> Joined <font color="blue"><b>Adobe</b></font> as a <font color="blue"><b>Research Intern</b></font> to advance research on unified multimodal models.</li>
@@ -119,14 +131,14 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
-          <!---------------------------------------------->
+            <!---------------------------------------------->
           <tr onmouseout="bob_stop()" onmouseover="bob_start()">
-                <td style="padding:20px;width:25%;vertical-align:middle">
+                <td style="padding:20px;width:40%;vertical-align:top">
                   <div class="one">
                     <div class="two" id='bob_image'>
-                      <img src='Data/cof_acc.png' width="200">
+                      <img src='Data/spotedit_teaser.png' width="300">
                     </div>
-                    <img src='Data/cof_acc.png' width="200">
+                    <img src='Data/spotedit_teaser.png' width="300">
                   </div>
 
                   <script type="text/javascript">
@@ -140,15 +152,63 @@
                     bob_stop()
                   </script>
                 </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
+                <td style="padding:20px;width:60%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2508.18159">
+                    <papertitle> SpotEdit: Evaluating Visually-Guided Image Editing Methods
+                    </papertitle>
+                  </a>
+                  <br>
+                  <strong>S. Ghazanfari</strong>, W. Lin, H. Tian, and E. Yumer
+                  <br>
+                  <font color="red"><strong><em>Under review</em></strong></font>
+                  <br>
+                  <a href="https://arxiv.org/pdf/2506.00318">PDF</a> /
+                  <a href="https://arxiv.org/abs/2508.18159">arXiv</a> /
+                  <a href="https://github.com/SaraGhazanfari/SpotEdit">code</a>
+                  <br>
+                  <p></p>
+                  <p>
+                     <div class="row" style="text-align: justify;">
+                We present <b>SpotEdit</b>, a comprehensive
+benchmark designed to systematically assess visually-guided image editing methods across diverse diffusion, autoregressive, and hybrid generative models, uncovering substantial performance disparities. To address a critical yet underexplored
+challenge, our benchmark includes a dedicated component on hallucination, highlighting how leading models, such as GPT-4o, often hallucinate the existence of a
+visual cue and erroneously perform the editing task.
+                </div>
+                  </p>
+                </td>
+              </tr>
+          <!---------------------------------------------->
+
+          <!---------------------------------------------->
+          <tr onmouseout="bob_stop()" onmouseover="bob_start()">
+                <td style="padding:20px;width:40%;vertical-align:top">
+                  <div class="one">
+                    <div class="two" id='bob_image'>
+                      <img src='Data/cof_acc.png' width="300">
+                    </div>
+                    <img src='Data/cof_acc.png' width="300">
+                  </div>
+
+                  <script type="text/javascript">
+                    function bob_start() {
+                      document.getElementById('bob_image').style.opacity = "0";
+                    }
+
+                    function bob_stop() {
+                      document.getElementById('bob_image').style.opacity = "1";
+                    }
+                    bob_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:60%;vertical-align:middle">
                   <a href="https://arxiv.org/abs/2412.10594">
                     <papertitle> Chain-of-Frames: Advancing Video Understanding in Multimodal LLMs via Frame-Aware Reasoning
                     </papertitle>
                   </a>
                   <br>
-                  <strong>S. Ghazanfari</strong>, F. Croce, N Flammarion, P. Krishnamurthy, F. Khorrami, and S. Garg
+                  <strong>S. Ghazanfari</strong>, F. Croce, N. Flammarion, P. Krishnamurthy, F. Khorrami, and S. Garg
                   <br>
-                  <font color="red"><strong><em>Submitted to NeurIPS 2025</em></strong></font>
+                  <font color="red"><strong><em>Under review</em></strong></font>
                   <br>
                   <a href="https://arxiv.org/pdf/2506.00318">PDF</a> /
                   <a href="https://arxiv.org/abs/2506.00318">arXiv</a> /
@@ -169,14 +229,14 @@ Our CoF-InternVL2.5-4B and CoF-InternVL3-8B models, based on CoF, outperform the
               </tr>
           <!---------------------------------------------->
             <tr onmouseout="bob_stop()" onmouseover="bob_start()">
-                <td style="padding:20px;width:25%;vertical-align:middle">
+                <td style="padding:20px;width:40%;vertical-align:top">
                   <div class="one">
                     <div class="two" id='bob_image'>
-                      <img src='Data/UniSim.png' width="200">
-                      <img src='Data/radar_plot.png' width="200">
+                      <img src='Data/UniSim.png' width="300">
+                      <img src='Data/radar_plot.png' width="300">
                     </div>
-                    <img src='Data/UniSim.png' width="200">
-                    <img src='Data/radar_plot.png' width="200">
+                    <img src='Data/UniSim.png' width="300">
+                    <img src='Data/radar_plot.png' width="300">
 
                   </div>
                   <script type="text/javascript">
@@ -190,13 +250,13 @@ Our CoF-InternVL2.5-4B and CoF-InternVL3-8B models, based on CoF, outperform the
                     bob_stop()
                   </script>
                 </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
+                <td style="padding:20px;width:60%;vertical-align:middle">
                   <a href="https://arxiv.org/abs/2412.10594">
                     <papertitle> Towards Unified Benchmark and Models for Multi-Modal Perceptual Metrics
                     </papertitle>
                   </a>
                   <br>
-                  <strong>S. Ghazanfari</strong>,S. Garg , N Flammarion, P. Krishnamurthy, F. Khorrami, and F. Croce
+                  <strong>S. Ghazanfari</strong>,S. Garg , N. Flammarion, P. Krishnamurthy, F. Khorrami, and F. Croce
                   <br>
                   <font color="red"><strong><em>CVPRW 2025</em></strong></font>
                   <br>
@@ -225,15 +285,15 @@ Our CoF-InternVL2.5-4B and CoF-InternVL3-8B models, based on CoF, outperform the
               </tr>
 
             <tr onmouseout="bob_stop()" onmouseover="bob_start()">
-                <td style="padding:20px;width:25%;vertical-align:middle">
+                <td style="padding:20px;width:40%;vertical-align:top">
                   <div class="one">
                     <div class="two" id='bob_image'>
-                      <img src='Data/emma.png' width="180">
-                      <img src='Data/mmvp_images.png' width="180">
+                      <img src='Data/emma.png' width="300">
+                      <img src='Data/mmvp_images.png' width="300">
 
                     </div>
-                    <img src='Data/emma.png' width="180">
-                    <img src='Data/mmvp_images.png' width="180">
+                    <img src='Data/emma.png' width="300">
+                    <img src='Data/mmvp_images.png' width="300">
                   </div>
                   <script type="text/javascript">
                     function bob_start() {
@@ -246,7 +306,7 @@ Our CoF-InternVL2.5-4B and CoF-InternVL3-8B models, based on CoF, outperform the
                     bob_stop()
                   </script>
                 </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
+                <td style="padding:20px;width:60%;vertical-align:middle">
                   <a href="https://arxiv.org/abs/2410.02080">
                     <papertitle> EMMA: Efficient Visual Alignment in Multi-Modal LLMs
                     </papertitle>
@@ -279,12 +339,12 @@ Our CoF-InternVL2.5-4B and CoF-InternVL3-8B models, based on CoF, outperform the
               </tr>
 
               <tr onmouseout="bob_stop()" onmouseover="bob_start()">
-                <td style="padding:20px;width:25%;vertical-align:middle">
+                <td style="padding:20px;width:40%;vertical-align:top">
                   <div class="one">
                     <div class="two" id='bob_image'>
-                      <img src='Data/lipsim_ex.png' width="180">
+                      <img src='Data/lipsim_ex.png' width="300">
                     </div>
-                    <img src='Data/lipsim_ex.png' width="180">
+                    <img src='Data/lipsim_ex.png' width="300">
                   </div>
                   <script type="text/javascript">
                     function bob_start() {
@@ -297,7 +357,7 @@ Our CoF-InternVL2.5-4B and CoF-InternVL3-8B models, based on CoF, outperform the
                     bob_stop()
                   </script>
                 </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
+                <td style="padding:20px;width:60%;vertical-align:middle">
                   <a href="https://arxiv.org/abs/2310.18274">
                     <papertitle> LipSim: A Provably Robust Perceptual Similarity Metric
                     </papertitle>
@@ -328,12 +388,12 @@ Our CoF-InternVL2.5-4B and CoF-InternVL3-8B models, based on CoF, outperform the
               </tr>
 
                <tr onmouseout="bob_stop()" onmouseover="bob_start()">
-                <td style="padding:20px;width:25%;vertical-align:middle">
+                <td style="padding:20px;width:40%;vertical-align:top">
                   <div class="one">
                     <div class="two" id='bob_image'>
-                      <img src='Data/r_lpips.png' width="180">
+                      <img src='Data/r_lpips.png' width="300">
                     </div>
-                    <img src='Data/r_lpips.png' width="180">
+                    <img src='Data/r_lpips.png' width="300">
                   </div>
                   <script type="text/javascript">
                     function bob_start() {
@@ -346,7 +406,7 @@ Our CoF-InternVL2.5-4B and CoF-InternVL3-8B models, based on CoF, outperform the
                     bob_stop()
                   </script>
                 </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
+                <td style="padding:20px;width:60%;vertical-align:middle">
                   <a href="https://arxiv.org/abs/2307.15157">
                     <papertitle> R-LPIPS: An Adversarially Robust Perceptual Similarity Metric
                     </papertitle>
