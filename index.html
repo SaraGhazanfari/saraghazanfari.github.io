@@ -153,7 +153,58 @@ Prior to that, UniSim presented a unified benchmark and model suite for multimod
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
             <!---------------------------------------------->
+
+
+          <!---------------------------------------------->
           <tr onmouseout="bob_stop()" onmouseover="bob_start()">
+                <td style="padding:20px;width:40%;vertical-align:top">
+                  <div class="one">
+                    <div class="two" id='bob_image'>
+                      <img src='Data/cof_acc.png' width="300">
+                    </div>
+                    <img src='Data/cof_acc.png' width="300">
+                  </div>
+
+                  <script type="text/javascript">
+                    function bob_start() {
+                      document.getElementById('bob_image').style.opacity = "0";
+                    }
+
+                    function bob_stop() {
+                      document.getElementById('bob_image').style.opacity = "1";
+                    }
+                    bob_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:60%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2412.10594">
+                    <papertitle> Chain-of-Frames: Advancing Video Understanding in Multimodal LLMs via Frame-Aware Reasoning
+                    </papertitle>
+                  </a>
+                  <br>
+                  <strong>S. Ghazanfari</strong>, F. Croce, N. Flammarion, P. Krishnamurthy, F. Khorrami, and S. Garg
+                  <br>
+                  <font color="red"><strong><em>CVPR 2026</em></strong></font>
+                  <br>
+                  <a href="https://arxiv.org/pdf/2506.00318">PDF</a> /
+                  <a href="https://arxiv.org/abs/2506.00318">arXiv</a> /
+                  <a href="https://github.com/SaraGhazanfari/CoF">code</a>
+                  <br>
+                  <p></p>
+                  <p>
+                     <div class="row" style="text-align: justify;">
+                We propose <b>chain-of-frames (CoF)</b> to obtain <b>video LLMs whose reasoning steps are grounded in, and explicitly refer to, the relevant frames </b>.
+
+We first create a large dataset of diverse questions, answers, and reasoning traces with references to frame IDs from both natural and synthetic videos. Then, we fine-tune existing video LLMs on this chain-of-frames data (CoF-Data). Our approach is simple and self-contained, and, unlike existing approaches for video CoT, does not require auxiliary networks or complex inference pipelines.
+
+Our CoF-InternVL2.5-4B and CoF-InternVL3-8B models, based on CoF, outperform the baselines across several benchmarks (right figure above). Moreover, they generate interpretable reasoning traces that accurately refer to the key frames to answer the given question.
+
+                </div>
+                  </p>
+                </td>
+              </tr>
+          <!---------------------------------------------->
+                      <tr onmouseout="bob_stop()" onmouseover="bob_start()">
                 <td style="padding:20px;width:40%;vertical-align:top">
                   <div class="one">
                     <div class="two" id='bob_image'>
@@ -194,56 +245,6 @@ Prior to that, UniSim presented a unified benchmark and model suite for multimod
 benchmark designed to systematically assess visually-guided image editing methods across diverse diffusion, autoregressive, and hybrid generative models, uncovering substantial performance disparities. To address a critical yet underexplored
 challenge, our benchmark includes a dedicated component on hallucination, highlighting how leading models, such as GPT-4o, often hallucinate the existence of a
 visual cue and erroneously perform the editing task.
-                </div>
-                  </p>
-                </td>
-              </tr>
-          <!---------------------------------------------->
-
-          <!---------------------------------------------->
-          <tr onmouseout="bob_stop()" onmouseover="bob_start()">
-                <td style="padding:20px;width:40%;vertical-align:top">
-                  <div class="one">
-                    <div class="two" id='bob_image'>
-                      <img src='Data/cof_acc.png' width="300">
-                    </div>
-                    <img src='Data/cof_acc.png' width="300">
-                  </div>
-
-                  <script type="text/javascript">
-                    function bob_start() {
-                      document.getElementById('bob_image').style.opacity = "0";
-                    }
-
-                    function bob_stop() {
-                      document.getElementById('bob_image').style.opacity = "1";
-                    }
-                    bob_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:60%;vertical-align:middle">
-                  <a href="https://arxiv.org/abs/2412.10594">
-                    <papertitle> Chain-of-Frames: Advancing Video Understanding in Multimodal LLMs via Frame-Aware Reasoning
-                    </papertitle>
-                  </a>
-                  <br>
-                  <strong>S. Ghazanfari</strong>, F. Croce, N. Flammarion, P. Krishnamurthy, F. Khorrami, and S. Garg
-                  <br>
-                  <font color="red"><strong><em>Under review</em></strong></font>
-                  <br>
-                  <a href="https://arxiv.org/pdf/2506.00318">PDF</a> /
-                  <a href="https://arxiv.org/abs/2506.00318">arXiv</a> /
-                  <a href="https://github.com/SaraGhazanfari/CoF">code</a>
-                  <br>
-                  <p></p>
-                  <p>
-                     <div class="row" style="text-align: justify;">
-                We propose <b>chain-of-frames (CoF)</b> to obtain <b>video LLMs whose reasoning steps are grounded in, and explicitly refer to, the relevant frames </b>.
-
-We first create a large dataset of diverse questions, answers, and reasoning traces with references to frame IDs from both natural and synthetic videos. Then, we fine-tune existing video LLMs on this chain-of-frames data (CoF-Data). Our approach is simple and self-contained, and, unlike existing approaches for video CoT, does not require auxiliary networks or complex inference pipelines.
-
-Our CoF-InternVL2.5-4B and CoF-InternVL3-8B models, based on CoF, outperform the baselines across several benchmarks (right figure above). Moreover, they generate interpretable reasoning traces that accurately refer to the key frames to answer the given question.
-
                 </div>
                   </p>
                 </td>
