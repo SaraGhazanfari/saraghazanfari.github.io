@@ -131,8 +131,7 @@ h2 {
   font-weight: 600;
   margin-bottom: 20px;
   color: var(--text-primary);
-  /* Lowercase styling for that minimalist feel */
-  text-transform: lowercase;
+  text-transform: capitalize;
 }
 
 p {
