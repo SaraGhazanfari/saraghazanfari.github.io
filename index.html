@@ -1,464 +1,283 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sara Ghazanfari</title>
-
-  <meta name="author" content="Jon Barron">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <meta name="author" content="Sara Ghazanfari">
+  <link rel="stylesheet" href="stylesheet.css">
   <link rel="icon" type="image/jpg" href="Data/sara3.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
-
 <body>
-  <table
-    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr style="padding:0px">
-                <td style="padding:2.5%;width:63%;vertical-align:middle">
-                  <p style="text-align:center">
-                    <name>Sara Ghazanfari</name>
-                  </p>
-                  <p>
-                    <div class="row" style="text-align: justify;">
-                  I’m a Ph.D. candidate at New York University in the <a class="desc-links" href="https://wp.nyu.edu/ensure_group/">
-                EnSuRe Research Group</a>, where I’ve been a research assistant since January 2023.
-                  I'm pleased to be co-advised by <a class="desc-links" href="https://engineering.nyu.edu/faculty/siddharth-garg">
-                Siddharth Garg</a> and <a class="desc-links" href="https://engineering.nyu.edu/faculty/farshad-khorrami">
-                Farshad Khorrami</a>. My research focuses on advancing the <b>visual understanding and generation capabilities of Large multimodal models</b>
-                  (including multimodal LLMs).
-                During summer 2025, I joined <b>Adobe as a research intern</b> to continue pursuing this line of work on enhancing visual capabilities
-                  in Large multimodal models. <br><br>
-                  </div>
-                  <div class="row" style="text-align: justify;">
-                 I’m currently seeking <font color="blue"><b>Summer 2026 internship opportunities</b></font> in multimodal learning, foundation models, and visual reasoning. Feel free to reach out if my interests align with your team’s work!
-                  </div>
+  <div class="layout">
+
+    <aside class="sidebar">
+      <div class="profile">
+        <img src="Data/sara5.png" alt="Sara Ghazanfari" class="profile-img">
+        <h1 class="name">Sara Ghazanfari</h1>
+        <p class="subtitle">Ph.D. Candidate @ NYU</p>
+      </div>
+      <nav class="nav-links">
+        <a href="#about">about</a>
+        <a href="#research">research</a>
+        <a href="#news">news</a>
+        <a href="#publications">publications</a>
+      </nav>
+      <div class="social-links">
+        <a href="mailto:sg7457@nyu.edu">email</a>
+        <a href="https://scholar.google.com/citations?user=0dMW47QAAAAJ&hl=en">google scholar</a>
+        <a href="https://github.com/SaraGhazanfari">github</a>
+        <a href="https://twitter.com/SaraGhznfri">twitter</a>
+        <a href="https://www.linkedin.com/in/sara-ghazanfari-1a8b37163/">linkedin</a>
+        <a href="Data/My_Resume.pdf">resume</a>
+      </div>
+    </aside>
+
+    <main class="content">
+
+      <section id="about">
+       <p>
+        I am a Ph.D. candidate in Electrical and Computer Engineering at New York University, working within the <a href="https://wp.nyu.edu/ensure_group/">EnSuRe Research Group</a> under the advisement of <a href="https://engineering.nyu.edu/faculty/siddharth-garg">Siddharth Garg</a> and <a href="https://engineering.nyu.edu/faculty/farshad-khorrami">Farshad Khorrami</a>. My research is dedicated to advancing the visual understanding and reasoning <b>Multimodal Large Language Models (MLLMs)</b> and <b>Foundation Models</b>.
+      </p>
+
+      <p>
+        In summer 2025, I joined <b>Adobe as a Research Scientist Intern</b> to evaluate and enhance the visual prompt-following capabilities of state-of-the-art generative models. My work specifically focused on establishing systematic frameworks to identify and expose visual hallucinations in visually-guided image editing.
+      </p>
+
+      <p>
+         In summer 2026, I will be joining <b>Apple as an Applied Research Scientist Intern</b> to work on video understanding in generative models.
+      </p>
+<!--        <p class="highlight-box">-->
+<!--          I’m currently seeking <b>Summer 2026 internship opportunities</b> in multimodal learning, foundation models, and visual reasoning. Feel free to reach out if my interests align with your team’s work!-->
+<!--        </p>-->
+      </section>
+<section id="Research">
+  <h2>research</h2>
+  <div class="row" style="text-align: justify; margin-top:15px">
+    <p>
+      My research is at the intersection of computer vision and multimodal large language models, with a focus on how these models perceive, align, and reason about visual content. My earlier work spans <a href="https://arxiv.org/abs/2412.10594">perceptual similarity metrics</a> and <a href="https://arxiv.org/abs/2410.02080">visual alignment</a> in multimodal LLMs, where I studied how to make vision-language systems more robust and better aligned with human perception. Building on this foundation, I have increasingly turned to the temporal dimension of visual understanding.
+    </p>
+  </div>
+  <div class="row" style="text-align: justify; margin-top:15px">
+    <p>
+      In <a href="https://arxiv.org/abs/2506.00318"><em>Chain-of-Frames</em></a> (CVPR 2026), I introduced a frame-aware reasoning approach for video understanding in MLLMs that produces explicit temporal grounding traces, leveraging synthetic data to teach models to anchor their reasoning in specific frames rather than treating videos as undifferentiated visual context. I have since extended this line of work from single-video to multi-video settings.
+    </p>
+  </div>
+  <div class="row" style="text-align: justify; margin-top:15px">
+    <p>
+      In my latest project, <a href="#"><em>SYNCR</em></a>, I introduce a controlled synthetic data generation pipeline for reasoning across video streams with programmatically verified grounding, which reveals substantial shortcomings in the cross-video reasoning capabilities of current MLLMs.
+    </p>
+  </div>
+</section>
+<!--      <section id="Research">-->
+<!--        <h2>Research</h2>-->
+<!--        <div class="row" style="text-align: justify; margin-top:15px">-->
+<!--          <p>My research is at the intersection of computer vision and multimodal large language models, with a focus on how these models perceive, align, and reason about visual content. My earlier work spans perceptual similarity metrics and visual alignment in multimodal LLMs, where I studied how to make vision-language systems more robust and better aligned with human perception. Building on this foundation, I have increasingly turned to the temporal dimension of visual understanding.</p>-->
+<!--        </div>-->
+<!--        <div class="row" style="text-align: justify; margin-top:15px">-->
+<!--          <p>In <em>Chain-of-Frames</em> (CVPR 2026), I introduced a frame-aware reasoning approach for video understanding in MLLMs that produces explicit temporal grounding traces, leveraging synthetic data to teach models to anchor their reasoning in specific frames rather than treating videos as undifferentiated visual context. I have since extended this line of work from single-video to multi-video settings. </p>-->
+<!--        </div>-->
+<!--        <div class="row" style="text-align: justify; margin-top:15px">-->
+<!--          <p>In my latest project, <em>SYNCR</em>, I introduce a controlled synthetic data generation pipeline for reasoning across video streams with programmatically verified grounding, which reveals substantial shortcomings in the cross-video reasoning capabilities of current MLLMs.</p>-->
+<!--        </div>-->
+<!--      </section>-->
+
+      <section id="news">
+        <h2>News</h2>
+        <ul class="news-list">
+          <li>
+            <span class="date">May 2026</span>
+            <span class="news-text"><b>SYNCR</b> released on arXiv, introducing a controlled synthetic benchmark for cross-video reasoning.</span>
+          </li>
+          <li>
+            <span class="date">Feb 2026</span>
+            <span class="news-text"><a href="https://arxiv.org/pdf/2506.00318">Chain-of-Frames</a> was accepted to <b>CVPR 2026</b>.</span>
+          </li>
+          <li>
+            <span class="date">Dec 2025</span>
+            <span class="news-text">Attended <b>NeurIPS 2025</b> to present <a href="https://arxiv.org/pdf/2508.18159">SpotEdit</a> and <a href="https://arxiv.org/pdf/2506.00318">Chain-of-Frames</a> papers.</span>
+          </li>
+          <li>
+            <span class="date">Sep 2025</span>
+            <span class="news-text"><b>SpotEdit</b> accepted to <b>NeurIPS 2025 Workshop</b>, with benchmark and code released on <a href="https://github.com/SaraGhazanfari/SpotEdit">GitHub</a>.</span>
+          </li>
+          <li>
+            <span class="date">Jun 2025</span>
+            <span class="news-text"><b>Chain-of-Frames</b> released on arXiv, with code and models on <a href="https://github.com/SaraGhazanfari/CoF">GitHub</a>.</span>
+          </li>
+          <li>
+            <span class="date">May 2025</span>
+            <span class="news-text">Joined <b>Adobe</b> as a Research Intern, advancing research on unified multimodal models.</span>
+          </li>
+          <li>
+            <span class="date">May 2025</span>
+            <span class="news-text"><b>EMMA</b> accepted to <a href="https://openreview.net/pdf?id=lbrO3bGpeO">TMLR 2025</a>.</span>
+          </li>
+          <li>
+            <span class="date">Apr 2025</span>
+            <span class="news-text"><b>UniSim</b> accepted to <a href="https://sites.google.com/view/eval-fomo-2-cvpr/home">CVPR Workshop 2025</a>.</span>
+          </li>
+          <li>
+            <span class="date">Jun 2024</span>
+            <span class="news-text">Attended <b>CVPR 2024</b>.</span>
+          </li>
+          <li>
+            <span class="date">Jan 2024</span>
+            <span class="news-text"><b>LipSim</b> accepted to <b>ICLR 2024</b>.</span>
+          </li>
+          <li>
+            <span class="date">Jun 2023</span>
+            <span class="news-text"><b>R-LPIPS</b> accepted to <b>ICML Workshop 2023</b>.</span>
+          </li>
+          <li>
+            <span class="date">Jan 2023</span>
+            <span class="news-text">Started my Ph.D. at <b>NYU</b>.</span>
+          </li>
+        </ul>
+      </section>
 
 
-                  </p>
-                  <p style="text-align:center">
-                    <a href="mailto:sg7457@nyu.edu">Email</a> &nbsp/&nbsp
-                    <a href="https://scholar.google.com/citations?user=0dMW47QAAAAJ&hl=en">Google Scholar</a>
-                    &nbsp/&nbsp
-                    <a href="https://github.com/SaraGhazanfari">GitHub</a> &nbsp/&nbsp
-                    <a href="https://twitter.com/SaraGhznfri">Twitter</a> &nbsp/&nbsp
-                    <a href="https://www.linkedin.com/in/sara-ghazanfari-1a8b37163/">LinkedIn</a> &nbsp/&nbsp
-                    <a href="Data/My_Resume.pdf">Resume</a>
-                  </p>
-                </td>
-                <td style="padding:2.5%;width:40%;max-width:40%">
-                  <a href="Data/sara5.png"><img style="width:100%;max-width:100%" alt="profile photo"
-                      src="Data/sara5.png" class="hoverZoomLink"></a>
-                </td>
-              </tr>
-          </table>
+      <section id="publications">
+        <h2>Publications</h2>
+<!--        <p class="pub-intro">-->
+<!--          In my recent work, Chain-of-Frames (CoF), we introduced a novel framework for grounding temporal reasoning in video understanding. Prior to that, UniSim presented a unified benchmark and model suite for multimodal perceptual similarity tasks. Earlier, EMMA proposed an efficient modality adaptation module that effectively aligns visual and textual representations.-->
+<!--        </p>-->
 
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-            <tr>
-              <td width="100%" valign="middle">
-                <heading>Research Overview</heading>
-                <div class="row" style="text-align: justify; margin-top:15px">
-                My research focuses on advancing the visual understanding capabilities of multimodal large language models (MLLMs).
-                  In particular, I explore methods to enhance <b>spatio-temporal understanding in video LLMs</b> and to improve <b>visual
-                  alignment</b> through more effective multimodal representation adaptation. Broadly, my goal is to make MLLMs more capable,
-                  interpretable, and robust across diverse visual understanding and reasoning challenges.
-                  Recently, my work has expanded toward <b>unified large multimodal models</b> that integrate both visual understanding and
-                  generation within a single framework. I am particularly interested in developing evaluation methodologies and improvement
-                  strategies for these integrated systems to better <b>assess and advance their holistic visual capabilities</b>.
+        <div class="pub-list">
+          <div class="pub-item">
+            <div class="pub-image">
+              <img src="Data/syncr_teaser.png" class="img-base" alt="SYNCR Framework">
+              <img src="Data/syncr_teaser.png" class="img-hover" alt="SYNCR Framework">
+            </div>
+            <div class="pub-info">
+              <a href="#" class="pub-title">SYNCR: A Cross-Video Reasoning Benchmark with Synthetic Grounding </a>
+              <div class="pub-authors"><b>S. Ghazanfari</b>, S. Garg, P. Krishnamurthy, and F. Khorrami</div>
+              <div class="pub-venue">Preprint 2026</div>
+              <div class="pub-links">
+                <a href="#">pdf</a> /
+                <a href="#">arxiv</a> /
+                <a href="#">code</a>
               </div>
+              <p class="pub-desc">We introduce SYNCR, a controlled synthetic benchmark for cross-video reasoning with programmatically verified grounding. Built using Habitat, Kubric, and CLEVRER, it contains 8,163 multi-video QA pairs evaluating MLLMs across four diagnostic pillars, revealing a substantial gap between current models and human performance.</p>
+            </div>
+          </div>
 
-                <div class="row" style="text-align: justify; margin-top:15px">
-                During my <b>research internship at Adobe</b>, I focused on strengthening the <b>visual understanding capabilities of
-                  generative models</b> for the image generation task. Specifically, we developed <b>SpotEdit</b>, a comprehensive benchmark
-                  for visually guided image editing that systematically evaluates models across diverse editing scenarios.
-                  Notably, SpotEdit includes a dedicated <b>hallucination evaluation</b> component, highlighting how leading models—such as
-                  <b>GPT-4o</b>—can misinterpret visual cues and perform semantically incorrect edits.
+          <div class="pub-item">
+            <div class="pub-image">
+              <img src="Data/cof_acc.png" class="img-base" alt="Chain-of-Frames">
+              <img src="Data/cof_acc.png" class="img-hover" alt="Chain-of-Frames">
+            </div>
+            <div class="pub-info">
+              <a href="https://arxiv.org/abs/2412.10594" class="pub-title">Chain-of-Frames: Advancing Video Understanding in Multimodal LLMs via Frame-Aware Reasoning</a>
+              <div class="pub-authors"><b>S. Ghazanfari</b>, F. Croce, N. Flammarion, P. Krishnamurthy, F. Khorrami, and S. Garg</div>
+              <div class="pub-venue">CVPR 2026</div>
+              <div class="pub-links">
+                <a href="https://arxiv.org/pdf/2506.00318">pdf</a> /
+                <a href="https://arxiv.org/abs/2506.00318">arxiv</a> /
+                <a href="https://github.com/SaraGhazanfari/CoF">code</a>
               </div>
-              </td>
-            </tr>
-          </table>
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-  <tr>
-    <td width="100%" valign="middle">
-      <heading>News</heading>
-      <!-- <br /> -->
-      <ul>
-        <li><b>Feb-2026:</b> <a href="https://arxiv.org/pdf/2506.00318">Chain-of-Frames</a> was accepted to <b>CVPR 2026</b>.</li>
-      </ul>
-      <ul>
-        <li><b>Dec-2025:</b> Attended <b>NeurIPS 2025</b></font> to present <a href="https://arxiv.org/pdf/2508.18159">SpotEdit</a> and <a href="https://arxiv.org/pdf/2506.00318">Chain-of-Frames</a> papers.</li>
-      </ul>
-      <ul>
-        <li><b>Sep-2025:</b> <font color="blue"><b>SpotEdit</b></font> accepted to <b>NeurIPS 2025 Workshop</b>, with benchmark and code released on <a href="https://github.com/SaraGhazanfari/SpotEdit">GitHub</a>.</li>
-      </ul>
-<!--      <ul>-->
-<!--        <li><b>Aug-2025:</b> <font color="blue"><b>SpotEdit</b></font> released on <b>arXiv</b>, with benchmark, code, and models on <a href="https://github.com/SaraGhazanfari/SpotEdit">GitHub</a>.</li>-->
-<!--      </ul>-->
-      <ul>
-        <li><b>Jun-2025:</b> <font color="blue"><b>Chain-of-Frames</b></font> released on <b>arXiv</b>, with code and models on <a href="https://github.com/SaraGhazanfari/CoF">GitHub</a>.</li>
-      </ul>
-      <ul>
-        <li><b>May-2025:</b> Joined <font color="blue"><b>Adobe</b></font> as a <font color="blue"><b>Research Intern</b></font>, advancing research on unified multimodal models.</li>
-      </ul>
-      <ul>
-        <li><b>May-2025:</b> <font color="blue"><b>EMMA</b></font> accepted to <a href="https://openreview.net/pdf?id=lbrO3bGpeO"><b>TMLR 2025</b></a>.</li>
-      </ul>
-      <ul>
-        <li><b>Apr-2025:</b> <font color="blue"><b>UniSim</b></font> accepted to <a href="https://sites.google.com/view/eval-fomo-2-cvpr/home"><b>CVPR Workshop 2025</b></a>.</li>
-      </ul>
-      <ul>
-        <li><b>Jun-2024:</b> Attended <b>CVPR 2024</b>.</li>
-      </ul>
-      <ul>
-        <li><b>Jan-2024:</b> <font color="blue"><b>LipSim</b></font> accepted to <b>ICLR 2024</b>.</li>
-      </ul>
-      <ul>
-        <li><b>Jun-2023:</b> <font color="blue"><b>R-LPIPS</b></font> accepted to <b>ICML Workshop 2023</b>.</li>
-      </ul>
-      <ul>
-        <li><b>Jan-2023:</b> Started my <font color="blue"><b>Ph.D.</b></font> at <font color="blue"><b>NYU</b></font>.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+              <p class="pub-desc">We propose chain-of-frames (CoF) to obtain video LLMs whose reasoning steps are grounded in, and explicitly refer to, the relevant frames. Fine-tuned on a large dataset of synthetic and natural video reasoning traces, our models outperform baselines without requiring complex inference pipelines.</p>
+            </div>
+          </div>
 
+          <div class="pub-item">
+            <div class="pub-image">
+              <img src="Data/spotedit_teaser.png" class="img-base" alt="SpotEdit">
+              <img src="Data/spotedit_teaser.png" class="img-hover" alt="SpotEdit">
+            </div>
+            <div class="pub-info">
+              <a href="https://arxiv.org/abs/2508.18159" class="pub-title">SpotEdit: Evaluating Visually-Guided Image Editing Methods</a>
+              <div class="pub-authors"><b>S. Ghazanfari</b>, W. Lin, H. Tian, and E. Yumer</div>
+              <div class="pub-venue">NeurIPS Workshop 2025</div>
+              <div class="pub-links">
+                <a href="https://arxiv.org/pdf/2508.18159">pdf</a> /
+                <a href="https://arxiv.org/abs/2508.18159">arxiv</a> /
+                <a href="https://github.com/SaraGhazanfari/SpotEdit">code</a>
+              </div>
+              <p class="pub-desc">SpotEdit is a comprehensive benchmark designed to systematically assess visually-guided image editing methods. It highlights a critical hallucination component, uncovering how leading models like GPT-4o erroneously perform edits by hallucinating visual cues.</p>
+            </div>
+          </div>
 
+          <div class="pub-item">
+            <div class="pub-image">
+              <img src="Data/radar_plot.png" class="img-base" alt="UniSim">
+              <img src="Data/UniSim.png" class="img-hover" alt="UniSim">
+            </div>
+            <div class="pub-info">
+              <a href="https://arxiv.org/abs/2412.10594" class="pub-title">Towards Unified Benchmark and Models for Multi-Modal Perceptual Metrics</a>
+              <div class="pub-authors"><b>S. Ghazanfari</b>, S. Garg, N. Flammarion, P. Krishnamurthy, F. Khorrami, and F. Croce</div>
+              <div class="pub-venue">CVPR Workshop 2025</div>
+              <div class="pub-links">
+                <a href="https://arxiv.org/pdf/2412.10594">pdf</a> /
+                <a href="https://arxiv.org/abs/2412.10594">arxiv</a> /
+                <a href="https://github.com/SaraGhazanfari/UniSim">code</a>
+              </div>
+              <p class="pub-desc">UniSim-Bench tracks the progress of perceptual similarity metrics across uni- and multimodal tasks. We propose UniSim, a set of multi-task models that lay the groundwork for understanding general-purpose perceptual metrics beyond narrow applications.</p>
+            </div>
+          </div>
 
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px;width:100%;vertical-align:middle">
-                  <heading>Publications</heading>
-                <div class="row" style="text-align: justify; margin-top:15px">
-In my recent work, Chain-of-Frames (CoF), we introduced a novel framework for grounding temporal reasoning in video understanding, supported by synthetic data to improve model generalization across diverse tasks. We demonstrated that models trained on synthetic, temporally grounded reasoning traces can successfully learn temporal dependencies even under significant distributional shifts.
+          <div class="pub-item">
+            <div class="pub-image">
+              <img src="Data/mmvp_images.png" class="img-base" alt="EMMA">
+              <img src="Data/emma.png" class="img-hover" alt="EMMA">
+            </div>
+            <div class="pub-info">
+              <a href="https://arxiv.org/abs/2410.02080" class="pub-title">EMMA: Efficient Visual Alignment in Multi-Modal LLMs</a>
+              <div class="pub-authors"><b>S. Ghazanfari</b>, A. Araujo, P. Krishnamurthy, S. Garg and F. Khorrami</div>
+              <div class="pub-venue">TMLR 2025</div>
+              <div class="pub-links">
+                <a href="https://arxiv.org/abs/2410.02080.pdf">pdf</a> /
+                <a href="https://arxiv.org/abs/2410.02080">arxiv</a> /
+                <a href="https://github.com/SaraGhazanfari/EMMA">code</a>
+              </div>
+              <p class="pub-desc">EMMA (Efficient Multi-Modal Adaptation) is a lightweight module designed to fuse visual and textual encodings with minimal added parameters. It generates instruction-aware visual representations, boosting performance and reducing hallucinations.</p>
+            </div>
+          </div>
 
-Prior to that, UniSim presented a unified benchmark and model suite for multimodal perceptual similarity tasks, uncovering key insights into the generalization limitations of current state-of-the-art vision-language models—both specialized and general-purpose. Earlier, EMMA proposed an efficient modality adaptation module that effectively aligns visual and textual representations, enhancing cross-modal robustness and performance in MLLMs with minimal computational overhead.
-</div>
-                </td>
-              </tr>
-          </table>
+          <div class="pub-item">
+            <div class="pub-image">
+              <img src="Data/lipsim_ex.png" class="img-base" alt="LipSim">
+              <img src="Data/lipsim_ex.png" class="img-hover" alt="LipSim">
+            </div>
+            <div class="pub-info">
+              <a href="https://arxiv.org/abs/2310.18274" class="pub-title">LipSim: A Provably Robust Perceptual Similarity Metric</a>
+              <div class="pub-authors"><b>S. Ghazanfari</b>, A. Araujo, P. Krishnamurthy, F. Khorrami and S. Garg</div>
+              <div class="pub-venue">ICLR 2024</div>
+              <div class="pub-links">
+                <a href="https://arxiv.org/pdf/2310.18274.pdf">pdf</a> /
+                <a href="https://arxiv.org/abs/2310.18274">arxiv</a> /
+                <a href="https://github.com/SaraGhazanfari/lipsim">code</a>
+              </div>
+              <p class="pub-desc">We demonstrate the vulnerability of SOTA perceptual similarity metrics to adversarial attacks. We propose LipSim, trained with 1-Lipschitz neural networks, to provide a robust metric with provable guarantees.</p>
+            </div>
+          </div>
 
+          <div class="pub-item">
+            <div class="pub-image">
+              <img src="Data/r_lpips.png" class="img-base" alt="R-LPIPS">
+              <img src="Data/r_lpips.png" class="img-hover" alt="R-LPIPS">
+            </div>
+            <div class="pub-info">
+              <a href="https://arxiv.org/abs/2307.15157" class="pub-title">R-LPIPS: An Adversarially Robust Perceptual Similarity Metric</a>
+              <div class="pub-authors"><b>S. Ghazanfari</b>, S. Garg, P. Krishnamurthy, F. Khorrami and A. Araujo</div>
+              <div class="pub-venue">ICML Workshop 2023</div>
+              <div class="pub-links">
+                <a href="https://arxiv.org/pdf/2307.15157.pdf">pdf</a> /
+                <a href="https://arxiv.org/abs/2307.15157">arxiv</a> /
+                <a href="https://github.com/SaraGhazanfari/r-lpips">code</a>
+              </div>
+              <p class="pub-desc">We show LPIPS is sensitive to adversarial perturbation and propose R-LPIPS via Adversarial Training. R-LPIPS leverages adversarially trained deep features to demonstrate robustness compared to the standard metric.</p>
+            </div>
+          </div>
 
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-            <!---------------------------------------------->
+        </div>
+      </section>
 
-
-          <!---------------------------------------------->
-          <tr onmouseout="bob_stop()" onmouseover="bob_start()">
-                <td style="padding:20px;width:40%;vertical-align:top">
-                  <div class="one">
-                    <div class="two" id='bob_image'>
-                      <img src='Data/cof_acc.png' width="300">
-                    </div>
-                    <img src='Data/cof_acc.png' width="300">
-                  </div>
-
-                  <script type="text/javascript">
-                    function bob_start() {
-                      document.getElementById('bob_image').style.opacity = "0";
-                    }
-
-                    function bob_stop() {
-                      document.getElementById('bob_image').style.opacity = "1";
-                    }
-                    bob_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:60%;vertical-align:middle">
-                  <a href="https://arxiv.org/abs/2412.10594">
-                    <papertitle> Chain-of-Frames: Advancing Video Understanding in Multimodal LLMs via Frame-Aware Reasoning
-                    </papertitle>
-                  </a>
-                  <br>
-                  <strong>S. Ghazanfari</strong>, F. Croce, N. Flammarion, P. Krishnamurthy, F. Khorrami, and S. Garg
-                  <br>
-                  <font color="red"><strong><em>CVPR 2026</em></strong></font>
-                  <br>
-                  <a href="https://arxiv.org/pdf/2506.00318">PDF</a> /
-                  <a href="https://arxiv.org/abs/2506.00318">arXiv</a> /
-                  <a href="https://github.com/SaraGhazanfari/CoF">code</a>
-                  <br>
-                  <p></p>
-                  <p>
-                     <div class="row" style="text-align: justify;">
-                We propose <b>chain-of-frames (CoF)</b> to obtain <b>video LLMs whose reasoning steps are grounded in, and explicitly refer to, the relevant frames </b>.
-
-We first create a large dataset of diverse questions, answers, and reasoning traces with references to frame IDs from both natural and synthetic videos. Then, we fine-tune existing video LLMs on this chain-of-frames data (CoF-Data). Our approach is simple and self-contained, and, unlike existing approaches for video CoT, does not require auxiliary networks or complex inference pipelines.
-
-Our CoF-InternVL2.5-4B and CoF-InternVL3-8B models, based on CoF, outperform the baselines across several benchmarks (right figure above). Moreover, they generate interpretable reasoning traces that accurately refer to the key frames to answer the given question.
-
-                </div>
-                  </p>
-                </td>
-              </tr>
-          <!---------------------------------------------->
-                      <tr onmouseout="bob_stop()" onmouseover="bob_start()">
-                <td style="padding:20px;width:40%;vertical-align:top">
-                  <div class="one">
-                    <div class="two" id='bob_image'>
-                      <img src='Data/spotedit_teaser.png' width="300">
-                    </div>
-                    <img src='Data/spotedit_teaser.png' width="300">
-                  </div>
-
-                  <script type="text/javascript">
-                    function bob_start() {
-                      document.getElementById('bob_image').style.opacity = "0";
-                    }
-
-                    function bob_stop() {
-                      document.getElementById('bob_image').style.opacity = "1";
-                    }
-                    bob_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:60%;vertical-align:middle">
-                  <a href="https://arxiv.org/abs/2508.18159">
-                    <papertitle> SpotEdit: Evaluating Visually-Guided Image Editing Methods
-                    </papertitle>
-                  </a>
-                  <br>
-                  <strong>S. Ghazanfari</strong>, W. Lin, H. Tian, and E. Yumer
-                  <br>
-                  <font color="red"><strong><em>NeurIPS Workshop 2025</em></strong></font>
-                  <br>
-                  <a href="https://arxiv.org/pdf/2508.18159">PDF</a> /
-                  <a href="https://arxiv.org/abs/2508.18159">arXiv</a> /
-                  <a href="https://github.com/SaraGhazanfari/SpotEdit">code</a>
-                  <br>
-                  <p></p>
-                  <p>
-                     <div class="row" style="text-align: justify;">
-                We present <b>SpotEdit</b>, a comprehensive
-benchmark designed to systematically assess visually-guided image editing methods across diverse diffusion, autoregressive, and hybrid generative models, uncovering substantial performance disparities. To address a critical yet underexplored
-challenge, our benchmark includes a dedicated component on hallucination, highlighting how leading models, such as GPT-4o, often hallucinate the existence of a
-visual cue and erroneously perform the editing task.
-                </div>
-                  </p>
-                </td>
-              </tr>
-          <!---------------------------------------------->
-            <tr onmouseout="bob_stop()" onmouseover="bob_start()">
-                <td style="padding:20px;width:40%;vertical-align:top">
-                  <div class="one">
-                    <div class="two" id='bob_image'>
-                      <img src='Data/UniSim.png' width="300">
-                      <img src='Data/radar_plot.png' width="300">
-                    </div>
-                    <img src='Data/UniSim.png' width="300">
-                    <img src='Data/radar_plot.png' width="300">
-
-                  </div>
-                  <script type="text/javascript">
-                    function bob_start() {
-                      document.getElementById('bob_image').style.opacity = "0";
-                    }
-
-                    function bob_stop() {
-                      document.getElementById('bob_image').style.opacity = "1";
-                    }
-                    bob_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:60%;vertical-align:middle">
-                  <a href="https://arxiv.org/abs/2412.10594">
-                    <papertitle> Towards Unified Benchmark and Models for Multi-Modal Perceptual Metrics
-                    </papertitle>
-                  </a>
-                  <br>
-                  <strong>S. Ghazanfari</strong>,S. Garg , N. Flammarion, P. Krishnamurthy, F. Khorrami, and F. Croce
-                  <br>
-                  <font color="red"><strong><em>CVPR Workshop 2025</em></strong></font>
-                  <br>
-                  <a href="https://arxiv.org/pdf/2412.10594">PDF</a> /
-                  <a href="https://arxiv.org/abs/2412.10594">arXiv</a> /
-                  <a href="https://github.com/SaraGhazanfari/UniSim">code</a>
-                  <br>
-                  <p></p>
-                  <p>
-                     <div class="row" style="text-align: justify;">
-                 In this our work, we propose UniSim-Bench,
-                  the first benchmark to track the progress of perceptual
-                  similarity metrics across uni- and multimodal tasks.
-                  We identify the limitations of current specialized perceptual
-                  in generalizing to unseen datasets and perceptual tasks.
-                  We propose UniSim, a set of multi-task perceptual models which
-                  are a first step towards general-purpose perceptual metrics.
-                  Together, <b>UniSim-Bench</b> and UniSim lay the groundwork for
-                  understanding the challenges of learning automated metrics
-                  that broadly mimic human perceptual similarity, beyond narrow,
-                  task-specific applications.
-
-                </div>
-                  </p>
-                </td>
-              </tr>
-
-            <tr onmouseout="bob_stop()" onmouseover="bob_start()">
-                <td style="padding:20px;width:40%;vertical-align:top">
-                  <div class="one">
-                    <div class="two" id='bob_image'>
-                      <img src='Data/emma.png' width="300">
-                      <img src='Data/mmvp_images.png' width="300">
-
-                    </div>
-                    <img src='Data/emma.png' width="300">
-                    <img src='Data/mmvp_images.png' width="300">
-                  </div>
-                  <script type="text/javascript">
-                    function bob_start() {
-                      document.getElementById('bob_image').style.opacity = "0";
-                    }
-
-                    function bob_stop() {
-                      document.getElementById('bob_image').style.opacity = "1";
-                    }
-                    bob_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:60%;vertical-align:middle">
-                  <a href="https://arxiv.org/abs/2410.02080">
-                    <papertitle> EMMA: Efficient Visual Alignment in Multi-Modal LLMs
-                    </papertitle>
-                  </a>
-                  <br>
-                  <strong>S. Ghazanfari</strong>, A. Araujo, P. Krishnamurthy, S. Garg and F. Khorrami
-                  <br>
-                  <font color="red"><strong><em>TMLR 2025</em></strong></font>
-                  <br>
-                  <a href="https://arxiv.org/abs/2410.02080.pdf">PDF</a> /
-                  <a href="https://arxiv.org/abs/2410.02080">arXiv</a> /
-                  <a href="https://github.com/SaraGhazanfari/EMMA">code</a>
-                  <br>
-                  <p></p>
-                  <p>
-                     <div class="row" style="text-align: justify;">
-                  In this paper, we propose EMMA (Efficient Multi-Modal Adaptation), a lightweight cross-modality
-                  module designed to efficiently fuse visual and textual encodings, generating <b>instruction-aware
-                  visual representations for the language model</b>. Our key contributions include: (1) an efficient
-                  early fusion mechanism that integrates vision and language representations with minimal added
-                  parameters (less than 0.2% increase in model size), (2) an in-depth interpretability analysis
-                  that sheds light on the internal mechanisms of the proposed method; (3) comprehensive experiments
-                  that demonstrate notable improvements on both specialized and general benchmarks for MLLMs.
-                  Empirical results show that EMMA boosts performance across multiple tasks by up to 9.3% while
-                  significantly improving robustness against hallucinations.
-
-                </div>
-                  </p>
-                </td>
-              </tr>
-
-              <tr onmouseout="bob_stop()" onmouseover="bob_start()">
-                <td style="padding:20px;width:40%;vertical-align:top">
-                  <div class="one">
-                    <div class="two" id='bob_image'>
-                      <img src='Data/lipsim_ex.png' width="300">
-                    </div>
-                    <img src='Data/lipsim_ex.png' width="300">
-                  </div>
-                  <script type="text/javascript">
-                    function bob_start() {
-                      document.getElementById('bob_image').style.opacity = "0";
-                    }
-
-                    function bob_stop() {
-                      document.getElementById('bob_image').style.opacity = "1";
-                    }
-                    bob_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:60%;vertical-align:middle">
-                  <a href="https://arxiv.org/abs/2310.18274">
-                    <papertitle> LipSim: A Provably Robust Perceptual Similarity Metric
-                    </papertitle>
-                  </a>
-                  <br>
-                  <strong>S. Ghazanfari</strong>, A. Araujo, P. Krishnamurthy, F. Khorrami and S. Garg
-                  <br>
-                  <font color="red"><strong><em>ICLR 2024</em></strong></font>
-                  <br>
-                  <a href="https://arxiv.org/pdf/2310.18274.pdf">PDF</a> /
-                  <a href="https://arxiv.org/abs/2310.18274">arXiv</a> /
-                  <a href="https://github.com/SaraGhazanfari/lipsim">code</a>
-                  <br>
-                  <p></p>
-                  <p>
-                     <div class="row" style="text-align: justify;">
-                  In this work, we demonstrate the vulnerability of the SOTA perceptual similarity metric
-                  based on an ensemble of ViT-based feature extractors to adversarial attacks.
-                  We then propose a framework to train a robust perceptual similarity metric called LipSim
-                  (Lipschitz Similarity Metric) with provable guarantees by leveraging 1-Lipschitz neural
-                  networks as backbone and knowledge distillation approach to distill the knowledge of the
-                  SOTA models. Finally, a comprehensive set of experiments shows the performance of LipSim
-                  in terms of natural and certified scores and on the image retrieval application.
-
-                </div>
-                  </p>
-                </td>
-              </tr>
-
-               <tr onmouseout="bob_stop()" onmouseover="bob_start()">
-                <td style="padding:20px;width:40%;vertical-align:top">
-                  <div class="one">
-                    <div class="two" id='bob_image'>
-                      <img src='Data/r_lpips.png' width="300">
-                    </div>
-                    <img src='Data/r_lpips.png' width="300">
-                  </div>
-                  <script type="text/javascript">
-                    function bob_start() {
-                      document.getElementById('bob_image').style.opacity = "0";
-                    }
-
-                    function bob_stop() {
-                      document.getElementById('bob_image').style.opacity = "1";
-                    }
-                    bob_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:60%;vertical-align:middle">
-                  <a href="https://arxiv.org/abs/2307.15157">
-                    <papertitle> R-LPIPS: An Adversarially Robust Perceptual Similarity Metric
-                    </papertitle>
-                  </a>
-                  <br>
-                  <strong>S. Ghazanfari</strong>, S. Garg, P. Krishnamurthy, F. Khorrami and A. Araujo
-                  <br>
-                  <font color="red"><strong><em>ICML Workshop 2023</em></strong></font>
-                  <br>
-                  <a href="https://arxiv.org/pdf/2307.15157.pdf">PDF</a> /
-                  <a href="https://arxiv.org/abs/2307.15157">arXiv</a> /
-                  <a href="https://github.com/SaraGhazanfari/r-lpips">code</a>
-                  <br>
-                  <p></p>
-                  <p>
-                     <div class="row" style="text-align: justify;">
-                  In this work, we show that the LPIPS metric is sensitive to adversarial perturbation and propose the
-                  use of Adversarial Training to build a new Robust Learned Perceptual Image Patch Similarity (R-LPIPS)
-                  that leverages adversarially trained deep features. Based on an adversarial evaluation, we demonstrate
-                  the robustness of R-LPIPS to adversarial examples compared to the LPIPS metric.
-                  Finally, we showed that the perceptual defense achieved over LPIPS metrics could easily
-                  be broken by stronger attacks developed based on R-LPIPS.
-                </div>
-                  </p>
-                </td>
-              </tr>
-
-        </td>
-      </tr>
-  </table>
+      <footer>
+        <p>© 2026 Sara Ghazanfari. Designed with a clean aesthetic.</p>
+      </footer>
+    </main>
+  </div>
 </body>
-
 </html>
