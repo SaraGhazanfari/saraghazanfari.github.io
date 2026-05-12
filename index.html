@@ -10,253 +10,221 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="layout">
+  <div class="container">
 
-    <aside class="sidebar">
-      <div class="profile">
-        <img src="Data/sara5.png" alt="Sara Ghazanfari" class="profile-img">
-        <h1 class="name">Sara Ghazanfari</h1>
-        <p class="subtitle">Ph.D. Candidate @ NYU</p>
+    <header class="profile-header">
+      <img src="Data/sara5.png" alt="Sara Ghazanfari" class="profile-img">
+      <h1 class="name">Sara Ghazanfari</h1>
+      <p class="subtitle">Ph.D. Candidate @ NYU</p>
+      <p class="email-obfuscated"><code>sg7457 [at] nyu [dot] edu</code></p>
+
+      <div class="social-icons">
+        <a href="https://github.com/SaraGhazanfari" title="GitHub">
+          <svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/sara-ghazanfari-1a8b37163/" title="LinkedIn">
+          <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
+        <a href="https://scholar.google.com/citations?user=0dMW47QAAAAJ&hl=en" title="Google Scholar">
+          <svg viewBox="0 0 24 24"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 2.735c-.143.467-.22 .966-.22 1.481v2.535l-.01.006v4.618l7.392 3.125 7.392-3.125v-4.618l-.01-.006v-2.535c0-.515-.077-1.014-.22-1.481L24 9.5 12 0zm0 11.458c-1.353 0-2.458-1.105-2.458-2.458S10.647 6.542 12 6.542s2.458 1.105 2.458 2.458-1.105 2.458-2.458 2.458z"/></svg>
+        </a>
+        <a href="https://twitter.com/SaraGhznfri" title="X (Twitter)">
+          <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="Data/My_Resume.pdf" title="Resume">
+          <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+        </a>
       </div>
-      <nav class="nav-links">
-        <a href="#about">about</a>
-        <a href="#research">research</a>
-        <a href="#news">news</a>
-        <a href="#publications">publications</a>
-      </nav>
-      <div class="social-links">
-        <a href="mailto:sg7457@nyu.edu">email</a>
-        <a href="https://scholar.google.com/citations?user=0dMW47QAAAAJ&hl=en">google scholar</a>
-        <a href="https://github.com/SaraGhazanfari">github</a>
-        <a href="https://twitter.com/SaraGhznfri">twitter</a>
-        <a href="https://www.linkedin.com/in/sara-ghazanfari-1a8b37163/">linkedin</a>
-        <a href="Data/My_Resume.pdf">resume</a>
-      </div>
-    </aside>
+    </header>
 
     <main class="content">
-
       <section id="about">
-       <p style="text-align: justify;">
-        I am a Ph.D. candidate in Electrical and Computer Engineering at New York University, working within the <a href="https://wp.nyu.edu/ensure_group/">EnSuRe Research Group</a> under the advisement of <a href="https://engineering.nyu.edu/faculty/siddharth-garg">Siddharth Garg</a> and <a href="https://engineering.nyu.edu/faculty/farshad-khorrami">Farshad Khorrami</a>. My research is dedicated to advancing the visual understanding and reasoning <b>Multimodal Large Language Models (MLLMs)</b> and <b>Foundation Models</b>.
+       <p>
+        I am a Ph.D. candidate in Electrical and Computer Engineering at New York University, working within the <a href="https://wp.nyu.edu/ensure_group/">EnSuRe Research Group</a> under the advisement of <a href="https://engineering.nyu.edu/faculty/siddharth-garg">Siddharth Garg</a> and <a href="https://engineering.nyu.edu/faculty/farshad-khorrami">Farshad Khorrami</a>. My research is dedicated to advancing the visual understanding and reasoning of <b>Multimodal Large Language Models (MLLMs)</b> and <b>Foundation Models</b>.
       </p>
 
-      <p style="text-align: justify;">
+      <p>
         In summer 2025, I joined <b>Adobe as a Research Scientist Intern</b> to evaluate and enhance the visual prompt-following capabilities of state-of-the-art generative models. My work specifically focused on establishing systematic frameworks to identify and expose visual hallucinations in visually-guided image editing.
       </p>
 
-      <p style="text-align: justify;">
+      <p>
          In summer 2026, I will be joining <b>Apple as an Applied Research Scientist Intern</b> to work on video understanding in generative models.
       </p>
-<!--        <p class="highlight-box">-->
-<!--          I’m currently seeking <b>Summer 2026 internship opportunities</b> in multimodal learning, foundation models, and visual reasoning. Feel free to reach out if my interests align with your team’s work!-->
-<!--        </p>-->
       </section>
-    <section id="research">
-      <h2>Research</h2>
 
-      <p style="text-align: justify;">
-        My research is at the intersection of computer vision and multimodal large language models, with a focus on how these models perceive, align, and reason about visual content. My earlier work spans <a href="https://arxiv.org/abs/2412.10594">perceptual similarity metrics</a> and <a href="https://arxiv.org/abs/2410.02080">visual alignment</a> in multimodal LLMs, where I studied how to make vision-language systems more robust and better aligned with human perception. Building on this foundation, I have increasingly turned to the temporal dimension of visual understanding.
-      </p>
-
-      <p style="text-align: justify;">
-        In <a href="https://arxiv.org/abs/2506.00318"><em>Chain-of-Frames</em></a> (CVPR 2026), I introduced a frame-aware reasoning approach for video understanding in MLLMs that produces explicit temporal grounding traces, leveraging synthetic data to teach models to anchor their reasoning in specific frames rather than treating videos as undifferentiated visual context. I have since extended this line of work from single-video to multi-video settings.
-      </p>
-
-      <p style="text-align: justify;">
-        In my latest project, <a href="#"><em>SYNCR</em></a>, I introduce a controlled synthetic data generation pipeline for reasoning across video streams with programmatically verified grounding, which reveals substantial shortcomings in the cross-video reasoning capabilities of current MLLMs.
-      </p>
-    </section>
-
+      <section id="research">
+        <h2>Research</h2>
+        <p>
+          My research is at the intersection of computer vision and multimodal large language models, with a focus on how these models perceive, align, and reason about visual content. My earlier work spans <a href="https://arxiv.org/abs/2412.10594">perceptual similarity metrics</a> and <a href="https://arxiv.org/abs/2410.02080">visual alignment</a> in multimodal LLMs, where I studied how to make vision-language systems more robust and better aligned with human perception. Building on this foundation, I have increasingly turned to the temporal dimension of visual understanding.
+        </p>
+        <p>
+          In <a href="https://arxiv.org/abs/2506.00318"><em>Chain-of-Frames</em></a> (CVPR 2026), I introduced a frame-aware reasoning approach for video understanding in MLLMs that produces explicit temporal grounding traces, leveraging synthetic data to teach models to anchor their reasoning in specific frames rather than treating videos as undifferentiated visual context. I have since extended this line of work from single-video to multi-video settings.
+        </p>
+        <p>
+          In my latest project, <a href="#"><em>SYNCR</em></a>, I introduce a controlled synthetic data generation pipeline for reasoning across video streams with programmatically verified grounding, which reveals substantial shortcomings in the cross-video reasoning capabilities of current MLLMs.
+        </p>
+      </section>
 
       <section id="news">
         <h2>News</h2>
         <ul class="news-list">
-          <li>
-            <span class="date">May 2026</span>
-            <span class="news-text"><b>SYNCR</b> released on arXiv, introducing a controlled synthetic benchmark for cross-video reasoning.</span>
-          </li>
-          <li>
-            <span class="date">Feb 2026</span>
-            <span class="news-text"><a href="https://arxiv.org/pdf/2506.00318">Chain-of-Frames</a> was accepted to <b>CVPR 2026</b>.</span>
-          </li>
-          <li>
-            <span class="date">Dec 2025</span>
-            <span class="news-text">Attended <b>NeurIPS 2025</b> to present <a href="https://arxiv.org/pdf/2508.18159">SpotEdit</a> and <a href="https://arxiv.org/pdf/2506.00318">Chain-of-Frames</a> papers.</span>
-          </li>
-          <li>
-            <span class="date">Sep 2025</span>
-            <span class="news-text"><b>SpotEdit</b> accepted to <b>NeurIPS 2025 Workshop</b>, with benchmark and code released on <a href="https://github.com/SaraGhazanfari/SpotEdit">GitHub</a>.</span>
-          </li>
-          <li>
-            <span class="date">Jun 2025</span>
-            <span class="news-text"><b>Chain-of-Frames</b> released on arXiv, with code and models on <a href="https://github.com/SaraGhazanfari/CoF">GitHub</a>.</span>
-          </li>
-          <li>
-            <span class="date">May 2025</span>
-            <span class="news-text">Joined <b>Adobe</b> as a Research Intern, advancing research on unified multimodal models.</span>
-          </li>
-          <li>
-            <span class="date">May 2025</span>
-            <span class="news-text"><b>EMMA</b> accepted to <a href="https://openreview.net/pdf?id=lbrO3bGpeO">TMLR 2025</a>.</span>
-          </li>
-          <li>
-            <span class="date">Apr 2025</span>
-            <span class="news-text"><b>UniSim</b> accepted to <a href="https://sites.google.com/view/eval-fomo-2-cvpr/home">CVPR Workshop 2025</a>.</span>
-          </li>
-          <li>
-            <span class="date">Jun 2024</span>
-            <span class="news-text">Attended <b>CVPR 2024</b>.</span>
-          </li>
-          <li>
-            <span class="date">Jan 2024</span>
-            <span class="news-text"><b>LipSim</b> accepted to <b>ICLR 2024</b>.</span>
-          </li>
-          <li>
-            <span class="date">Jun 2023</span>
-            <span class="news-text"><b>R-LPIPS</b> accepted to <b>ICML Workshop 2023</b>.</span>
-          </li>
-          <li>
-            <span class="date">Jan 2023</span>
-            <span class="news-text">Started my Ph.D. at <b>NYU</b>.</span>
-          </li>
+          <li><span class="date">May 2026</span><span class="news-text"><b>SYNCR</b> released on arXiv, introducing a controlled synthetic benchmark for cross-video reasoning.</span></li>
+          <li><span class="date">Feb 2026</span><span class="news-text"><a href="https://arxiv.org/pdf/2506.00318">Chain-of-Frames</a> was accepted to <b>CVPR 2026</b>.</span></li>
+          <li><span class="date">Dec 2025</span><span class="news-text">Attended <b>NeurIPS 2025</b> to present <a href="https://arxiv.org/pdf/2508.18159">SpotEdit</a> and <a href="https://arxiv.org/pdf/2506.00318">Chain-of-Frames</a> papers.</span></li>
+          <li><span class="date">Sep 2025</span><span class="news-text"><b>SpotEdit</b> accepted to <b>NeurIPS 2025 Workshop</b>, with benchmark and code released on <a href="https://github.com/SaraGhazanfari/SpotEdit">GitHub</a>.</span></li>
+          <li><span class="date">Jun 2025</span><span class="news-text"><b>Chain-of-Frames</b> released on arXiv, with code and models on <a href="https://github.com/SaraGhazanfari/CoF">GitHub</a>.</span></li>
+          <li><span class="date">May 2025</span><span class="news-text">Joined <b>Adobe</b> as a Research Intern, advancing research on unified multimodal models.</span></li>
+          <li><span class="date">May 2025</span><span class="news-text"><b>EMMA</b> accepted to <a href="https://openreview.net/pdf?id=lbrO3bGpeO">TMLR 2025</a>.</span></li>
+          <li><span class="date">Apr 2025</span><span class="news-text"><b>UniSim</b> accepted to <a href="https://sites.google.com/view/eval-fomo-2-cvpr/home">CVPR Workshop 2025</a>.</span></li>
+          <li><span class="date">Jun 2024</span><span class="news-text">Attended <b>CVPR 2024</b>.</span></li>
+          <li><span class="date">Jan 2024</span><span class="news-text"><b>LipSim</b> accepted to <b>ICLR 2024</b>.</span></li>
+          <li><span class="date">Jun 2023</span><span class="news-text"><b>R-LPIPS</b> accepted to <b>ICML Workshop 2023</b>.</span></li>
+          <li><span class="date">Jan 2023</span><span class="news-text">Started my Ph.D. at <b>NYU</b>.</span></li>
         </ul>
       </section>
 
-
       <section id="publications">
         <h2>Publications</h2>
-<!--        <p class="pub-intro">-->
-<!--          In my recent work, Chain-of-Frames (CoF), we introduced a novel framework for grounding temporal reasoning in video understanding. Prior to that, UniSim presented a unified benchmark and model suite for multimodal perceptual similarity tasks. Earlier, EMMA proposed an efficient modality adaptation module that effectively aligns visual and textual representations.-->
-<!--        </p>-->
-
         <div class="pub-list">
+
           <div class="pub-item">
-            <div class="pub-image">
-              <img src="Data/syncr_teaser.png" class="img-base" alt="SYNCR Framework">
-              <img src="Data/syncr_teaser.png" class="img-hover" alt="SYNCR Framework">
+            <div class="pub-image-wrapper">
+              <span class="venue-badge">Preprint</span>
+              <div class="pub-image">
+                <img src="Data/syncr_teaser.png" alt="SYNCR Framework">
+              </div>
             </div>
             <div class="pub-info">
-              <a href="#" class="pub-title">SYNCR: A Cross-Video Reasoning Benchmark with Synthetic Grounding </a>
-              <div class="pub-authors"><b>S. Ghazanfari</b>, S. Garg, P. Krishnamurthy, and F. Khorrami</div>
-              <div class="pub-venue">Preprint 2026</div>
-              <div class="pub-links">
-                <a href="#">pdf</a> /
-                <a href="#">arxiv</a> /
-                <a href="#">code</a>
+              <a href="#" class="pub-title">SYNCR: A Cross-Video Reasoning Benchmark with Synthetic Grounding</a>
+              <div class="pub-authors"><u><b>S. Ghazanfari</b></u>, S. Garg, P. Krishnamurthy, and F. Khorrami</div>
+              <div class="pub-venue"><em>Preprint 2026</em></div>
+              <div class="pub-buttons">
+                <a href="#" class="pub-btn">PDF</a>
+                <a href="#" class="pub-btn">ARXIV</a>
+                <a href="#" class="pub-btn">CODE</a>
               </div>
               <p class="pub-desc">We introduce SYNCR, a controlled synthetic benchmark for cross-video reasoning with programmatically verified grounding. Built using Habitat, Kubric, and CLEVRER, it contains 8,163 multi-video QA pairs evaluating MLLMs across four diagnostic pillars, revealing a substantial gap between current models and human performance.</p>
             </div>
           </div>
 
           <div class="pub-item">
-            <div class="pub-image">
-              <img src="Data/cof_acc.png" class="img-base" alt="Chain-of-Frames">
-              <img src="Data/cof_acc.png" class="img-hover" alt="Chain-of-Frames">
+            <div class="pub-image-wrapper">
+              <span class="venue-badge">CVPR</span>
+              <div class="pub-image">
+                <img src="Data/cof_acc.png" alt="Chain-of-Frames">
+              </div>
             </div>
             <div class="pub-info">
               <a href="https://arxiv.org/abs/2412.10594" class="pub-title">Chain-of-Frames: Advancing Video Understanding in Multimodal LLMs via Frame-Aware Reasoning</a>
-              <div class="pub-authors"><b>S. Ghazanfari</b>, F. Croce, N. Flammarion, P. Krishnamurthy, F. Khorrami, and S. Garg</div>
-              <div class="pub-venue">CVPR 2026</div>
-              <div class="pub-links">
-                <a href="https://arxiv.org/pdf/2506.00318">pdf</a> /
-                <a href="https://arxiv.org/abs/2506.00318">arxiv</a> /
-                <a href="https://github.com/SaraGhazanfari/CoF">code</a>
+              <div class="pub-authors"><u><b>S. Ghazanfari</b></u>, F. Croce, N. Flammarion, P. Krishnamurthy, F. Khorrami, and S. Garg</div>
+              <div class="pub-venue"><em>CVPR 2026</em></div>
+              <div class="pub-buttons">
+                <a href="https://arxiv.org/pdf/2506.00318" class="pub-btn">PDF</a>
+                <a href="https://arxiv.org/abs/2506.00318" class="pub-btn">ARXIV</a>
+                <a href="https://github.com/SaraGhazanfari/CoF" class="pub-btn">CODE</a>
               </div>
               <p class="pub-desc">We propose chain-of-frames (CoF) to obtain video LLMs whose reasoning steps are grounded in, and explicitly refer to, the relevant frames. Fine-tuned on a large dataset of synthetic and natural video reasoning traces, our models outperform baselines without requiring complex inference pipelines.</p>
             </div>
           </div>
 
           <div class="pub-item">
-            <div class="pub-image">
-              <img src="Data/spotedit_teaser.png" class="img-base" alt="SpotEdit">
-              <img src="Data/spotedit_teaser.png" class="img-hover" alt="SpotEdit">
+            <div class="pub-image-wrapper">
+              <span class="venue-badge">NeurIPS</span>
+              <div class="pub-image">
+                <img src="Data/spotedit_teaser.png" alt="SpotEdit">
+              </div>
             </div>
             <div class="pub-info">
               <a href="https://arxiv.org/abs/2508.18159" class="pub-title">SpotEdit: Evaluating Visually-Guided Image Editing Methods</a>
-              <div class="pub-authors"><b>S. Ghazanfari</b>, W. Lin, H. Tian, and E. Yumer</div>
-              <div class="pub-venue">NeurIPS Workshop 2025</div>
-              <div class="pub-links">
-                <a href="https://arxiv.org/pdf/2508.18159">pdf</a> /
-                <a href="https://arxiv.org/abs/2508.18159">arxiv</a> /
-                <a href="https://github.com/SaraGhazanfari/SpotEdit">code</a>
+              <div class="pub-authors"><u><b>S. Ghazanfari</b></u>, W. Lin, H. Tian, and E. Yumer</div>
+              <div class="pub-venue"><em>NeurIPS Workshop 2025</em></div>
+              <div class="pub-buttons">
+                <a href="https://arxiv.org/pdf/2508.18159" class="pub-btn">PDF</a>
+                <a href="https://arxiv.org/abs/2508.18159" class="pub-btn">ARXIV</a>
+                <a href="https://github.com/SaraGhazanfari/SpotEdit" class="pub-btn">CODE</a>
               </div>
               <p class="pub-desc">SpotEdit is a comprehensive benchmark designed to systematically assess visually-guided image editing methods. It highlights a critical hallucination component, uncovering how leading models like GPT-4o erroneously perform edits by hallucinating visual cues.</p>
             </div>
           </div>
 
           <div class="pub-item">
-            <div class="pub-image">
-              <img src="Data/radar_plot.png" class="img-base" alt="UniSim">
-              <img src="Data/UniSim.png" class="img-hover" alt="UniSim">
+             <div class="pub-image-wrapper">
+              <span class="venue-badge">CVPR</span>
+              <div class="pub-image">
+                <img src="Data/radar_plot.png" alt="UniSim">
+              </div>
             </div>
             <div class="pub-info">
               <a href="https://arxiv.org/abs/2412.10594" class="pub-title">Towards Unified Benchmark and Models for Multi-Modal Perceptual Metrics</a>
-              <div class="pub-authors"><b>S. Ghazanfari</b>, S. Garg, N. Flammarion, P. Krishnamurthy, F. Khorrami, and F. Croce</div>
-              <div class="pub-venue">CVPR Workshop 2025</div>
-              <div class="pub-links">
-                <a href="https://arxiv.org/pdf/2412.10594">pdf</a> /
-                <a href="https://arxiv.org/abs/2412.10594">arxiv</a> /
-                <a href="https://github.com/SaraGhazanfari/UniSim">code</a>
+              <div class="pub-authors"><u><b>S. Ghazanfari</b></u>, S. Garg, N. Flammarion, P. Krishnamurthy, F. Khorrami, and F. Croce</div>
+              <div class="pub-venue"><em>CVPR Workshop 2025</em></div>
+              <div class="pub-buttons">
+                <a href="https://arxiv.org/pdf/2412.10594" class="pub-btn">PDF</a>
+                <a href="https://arxiv.org/abs/2412.10594" class="pub-btn">ARXIV</a>
+                <a href="https://github.com/SaraGhazanfari/UniSim" class="pub-btn">CODE</a>
               </div>
               <p class="pub-desc">UniSim-Bench tracks the progress of perceptual similarity metrics across uni- and multimodal tasks. We propose UniSim, a set of multi-task models that lay the groundwork for understanding general-purpose perceptual metrics beyond narrow applications.</p>
             </div>
           </div>
-
-          <div class="pub-item">
-            <div class="pub-image">
-              <img src="Data/mmvp_images.png" class="img-base" alt="EMMA">
-              <img src="Data/emma.png" class="img-hover" alt="EMMA">
+        <div class="pub-item">
+            <div class="pub-image-wrapper">
+              <span class="venue-badge">TMLR</span>
+              <div class="pub-image">
+                <img src="Data/emma.png" alt="EMMA">
+              </div>
             </div>
             <div class="pub-info">
               <a href="https://arxiv.org/abs/2410.02080" class="pub-title">EMMA: Efficient Visual Alignment in Multi-Modal LLMs</a>
-              <div class="pub-authors"><b>S. Ghazanfari</b>, A. Araujo, P. Krishnamurthy, S. Garg and F. Khorrami</div>
-              <div class="pub-venue">TMLR 2025</div>
-              <div class="pub-links">
-                <a href="https://arxiv.org/abs/2410.02080.pdf">pdf</a> /
-                <a href="https://arxiv.org/abs/2410.02080">arxiv</a> /
-                <a href="https://github.com/SaraGhazanfari/EMMA">code</a>
+              <div class="pub-authors"><u><b>S. Ghazanfari</b></u>, A. Araujo, P. Krishnamurthy, S. Garg and F. Khorrami</div>
+              <div class="pub-venue"><em>TMLR 2025</em></div>
+              <div class="pub-buttons">
+                <a href="https://arxiv.org/abs/2410.02080.pdf" class="pub-btn">PDF</a>
+                <a href="https://arxiv.org/abs/2410.02080" class="pub-btn">ARXIV</a>
+                <a href="https://github.com/SaraGhazanfari/EMMA" class="pub-btn">CODE</a>
               </div>
               <p class="pub-desc">EMMA (Efficient Multi-Modal Adaptation) is a lightweight module designed to fuse visual and textual encodings with minimal added parameters. It generates instruction-aware visual representations, boosting performance and reducing hallucinations.</p>
             </div>
           </div>
 
           <div class="pub-item">
-            <div class="pub-image">
-              <img src="Data/lipsim_ex.png" class="img-base" alt="LipSim">
-              <img src="Data/lipsim_ex.png" class="img-hover" alt="LipSim">
+            <div class="pub-image-wrapper">
+              <span class="venue-badge">ICLR</span>
+              <div class="pub-image">
+                <img src="Data/lipsim_ex.png" alt="LipSim">
+              </div>
             </div>
             <div class="pub-info">
               <a href="https://arxiv.org/abs/2310.18274" class="pub-title">LipSim: A Provably Robust Perceptual Similarity Metric</a>
-              <div class="pub-authors"><b>S. Ghazanfari</b>, A. Araujo, P. Krishnamurthy, F. Khorrami and S. Garg</div>
-              <div class="pub-venue">ICLR 2024</div>
-              <div class="pub-links">
-                <a href="https://arxiv.org/pdf/2310.18274.pdf">pdf</a> /
-                <a href="https://arxiv.org/abs/2310.18274">arxiv</a> /
-                <a href="https://github.com/SaraGhazanfari/lipsim">code</a>
+              <div class="pub-authors"><u><b>S. Ghazanfari</b></u>, A. Araujo, P. Krishnamurthy, F. Khorrami and S. Garg</div>
+              <div class="pub-venue"><em>ICLR 2024</em></div>
+              <div class="pub-buttons">
+                <a href="https://arxiv.org/pdf/2310.18274.pdf" class="pub-btn">PDF</a>
+                <a href="https://arxiv.org/abs/2310.18274" class="pub-btn">ARXIV</a>
+                <a href="https://github.com/SaraGhazanfari/lipsim" class="pub-btn">CODE</a>
               </div>
               <p class="pub-desc">We demonstrate the vulnerability of SOTA perceptual similarity metrics to adversarial attacks. We propose LipSim, trained with 1-Lipschitz neural networks, to provide a robust metric with provable guarantees.</p>
             </div>
           </div>
 
           <div class="pub-item">
-            <div class="pub-image">
-              <img src="Data/r_lpips.png" class="img-base" alt="R-LPIPS">
-              <img src="Data/r_lpips.png" class="img-hover" alt="R-LPIPS">
+            <div class="pub-image-wrapper">
+              <span class="venue-badge">ICML</span>
+              <div class="pub-image">
+                <img src="Data/r_lpips.png" alt="R-LPIPS">
+              </div>
             </div>
             <div class="pub-info">
               <a href="https://arxiv.org/abs/2307.15157" class="pub-title">R-LPIPS: An Adversarially Robust Perceptual Similarity Metric</a>
-              <div class="pub-authors"><b>S. Ghazanfari</b>, S. Garg, P. Krishnamurthy, F. Khorrami and A. Araujo</div>
-              <div class="pub-venue">ICML Workshop 2023</div>
-              <div class="pub-links">
-                <a href="https://arxiv.org/pdf/2307.15157.pdf">pdf</a> /
-                <a href="https://arxiv.org/abs/2307.15157">arxiv</a> /
-                <a href="https://github.com/SaraGhazanfari/r-lpips">code</a>
+              <div class="pub-authors"><u><b>S. Ghazanfari</b></u>, S. Garg, P. Krishnamurthy, F. Khorrami and A. Araujo</div>
+              <div class="pub-venue"><em>ICML Workshop 2023</em></div>
+              <div class="pub-buttons">
+                <a href="https://arxiv.org/pdf/2307.15157.pdf" class="pub-btn">PDF</a>
+                <a href="https://arxiv.org/abs/2307.15157" class="pub-btn">ARXIV</a>
+                <a href="https://github.com/SaraGhazanfari/r-lpips" class="pub-btn">CODE</a>
               </div>
               <p class="pub-desc">We show LPIPS is sensitive to adversarial perturbation and propose R-LPIPS via Adversarial Training. R-LPIPS leverages adversarially trained deep features to demonstrate robustness compared to the standard metric.</p>
             </div>
           </div>
-
         </div>
       </section>
 
